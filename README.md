@@ -1,6 +1,9 @@
 # chess_engine
 attempt to code a functionnal chess engine using modern algorithms
 
+Openings are hard coded in the opening_book.py file in the engine directory, end games meaning any situation that has 7 pieces or less remaining makes an api request to chess base wich has solved every 7 piece positon possible effectivly giving you the best possible move every time
+
+
 Search logic :
 
 A value for each piece is hardcoded as follow :(pawn: 1, bishop: 3.10, knight: 2.95, rook: 5, queen: 10) this aims to give an idea of the value of an exchange.
