@@ -24,3 +24,5 @@ One problem is determining whether the last few move will not be biased by a lac
 
 Usage :
   If you want to try the engine for yourself, i recommend using lichess bot API which i personnaly use to try this engine, you will need python3 to be installed and the libraries listed in the requirements.txt file which you can download threw // pip install -r requirements.txt, you can then start the bot by just executing the main file with // python3 main.py
+
+  note : you can use the venv (virtual environment) which is provided in the folder to download the python libraries on this envionment effectively not affecting the rest of your computer
